@@ -6,9 +6,6 @@ from .forms import *
 # Create your views here.
 
 
-def trial(request):
-    return HttpResponse
-
 def index(request):
     tasks = Task.objects.all()
 
